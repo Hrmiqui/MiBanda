@@ -80,3 +80,7 @@ body{
   .section-herramientas, .section-foot{
     margin-top: 3em;
   }
+  footer img {
+    width: 100px;
+
+}
