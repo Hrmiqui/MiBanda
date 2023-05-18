@@ -28,7 +28,7 @@ body{
 .container {
   display: flex;
   flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -76,9 +76,19 @@ body{
     left: 0; 
     
   }
+  .herramienta_bloq img{
+    width: 100px;
+  }
 
   .section-herramientas, .section-foot{
     margin-top: 3em;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
   }
   footer img {
     width: 100px;
